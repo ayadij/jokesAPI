@@ -1,0 +1,38 @@
+.container-fluid {
+  padding: 40px;
+}
+.top-one {
+  padding: 40px;
+}
+.card-header {
+  background-color: rgb(249, 122, 76);
+}
+
+.btn-primary {
+  background-color: lightblue;
+  border: gray;
+}
+
+.btn-primary:enabled {
+  background-color: lightblue;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(230, 201, 173);
+  color: white;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.intro-card {
+  width: 18rem;
+  margin: 40px;
+}
