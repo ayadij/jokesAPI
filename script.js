@@ -8,7 +8,6 @@ document.getElementById("joke").addEventListener("click", function(event) {
     })
     .then(function(json) {
       let results = json.joke;
-      console.log(results);
-      // document.getElementById("jumbo").innerHTML = results;
+      document.getElementById("jumbo").innerHTML = results;
     });
 });
